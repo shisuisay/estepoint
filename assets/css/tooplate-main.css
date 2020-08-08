@@ -298,7 +298,7 @@ nav a::before {
 }
 
 .slides .slide .content {
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   position: relative;
   width: 80%;
   height: 80%;
@@ -705,24 +705,39 @@ nav a::before {
   width: 100%;
   font-weight: 300;
   font-size: 1rem;
+  clear: both;
 }
 
 .footer p {
   color: #fff;
 }
 
-.social {
+.insta {
   margin: 10px;
   width: 25px;
   height: 25px;
   background-color: #fff;
   float: left;
 }
+
+.fb {
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #3b5998;
+  float: left;
+}
+.booksy {
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #333333;
+  float: left;
+}
 .socialbox {
   text-align: center;
-  position: fixed;
   z-index: 100;
-  width: 12%;
+  
 }
 
 /* Responsive Style */
