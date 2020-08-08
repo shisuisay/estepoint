@@ -714,31 +714,32 @@ nav a::before {
 
 .insta {
   margin: 10px;
-  width: 25px;
-  height: 25px;
-  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  background-color: #333;
   float: left;
 }
 
 .fb {
   margin: 10px;
-  width: 25px;
-  height: 25px;
-  background-color: #3b5998;
+  width: 20px;
+  height: 20px;
+  background-color: #333;
   float: left;
 }
 .booksy {
   margin: 10px;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-color: #333333;
   float: left;
 }
 .socialbox {
   text-align: center;
   z-index: 100;
-  
+  min-width: 12%;
 }
+
 
 /* Responsive Style */
 @media (max-width: 991px) {
